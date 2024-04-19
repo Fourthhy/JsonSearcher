@@ -68,16 +68,16 @@ function load() {
                     Title.textContent = ID2Holder.textContent;
 
                     const AlbumID = document.getElementById('SpanAlbumID');
-                    AlbumID.innerHTML = `<b>Album ID:</b> ` + photos[i].albumId + `th Album`;
+                    AlbumID.innerHTML = `<b>Album ID:&nbsp</b> ` + photos[i].albumId + `th Album`;
 
                     const PhotoID = document.getElementById('SpanPhotoID');
-                    PhotoID.innerHTML = `<b>Photo ID: </b>` + photos[i].id;
+                    PhotoID.innerHTML = `<b>Photo ID:&nbsp</b>` + photos[i].id;
 
                     const fullTitle = document.getElementById('SpanTitle');
-                    fullTitle.innerHTML = `<b>Title: </b>` + photos[i].title;
+                    fullTitle.innerHTML = `<b>Title:&nbsp </b>` + photos[i].title;
 
                     const URLImage = document.getElementById('SpanURL');
-                    URLImage.innerHTML = `<b>URL:</b> ` + photos[i].url;
+                    URLImage.innerHTML = `<b>URL:&nbsp</b> ` + photos[i].url;
 
                 });
 
