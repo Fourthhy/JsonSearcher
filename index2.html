@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <div class="Header">
+        &nbsp;
+    </div>
+    <section class="Previews">
+        <div class="wholeFloatingContainer" id="popupContainer">
+
+            <div class="floatingContainerFlex"> <!-- Flex in the middle of the screen-->
+    
+                <div class="floatingContentGrid"> <!--Gridded Container-->
+    
+                    <div class="floatingImageContainer">
+                        <img alt="Image" id="floatingImage" class="floatingImage">
+                    </div>
+        
+                    <div class="floatingTitleContainer">
+                        <h3 id="floatingTitle"></h3>
+                    </div>
+        
+                    <div class="floatingContentContainer" >
+                        <p class="floatingContent AlbumID" id="SpanAlbumID"></p>
+                        <p class="floatingContent PhotoID" id="SpanPhotoID"></p>
+                        <p class="floatingContent fullTitle" id="SpanTitle"></p>
+                        <p class="floatingContent url" id="SpanURL"></p>
+                    </div>
+        
+                    <div class="closeButtonDiv"> 
+                        <buttion id="closeFloater" class="buttonDesign">Close</button>
+                    </div>
+        
+                </div>
+    
+            </div>
+            
+        </div>
+        <ul id="ulGrid">
+
+            <!-- <li class="Item">
+                <div class="itemImageDiv">
+                    <img alt="Image" id="itemImage" class="itemImage">
+                </div>
+                <div class="itemTitleDiv">
+                    <p id="itemTitleContent"></p>
+                </div>
+            </li> -->
+        </ul>
+    </section>
+    <script src="script2.js"></script>
+</body>
+</html>
